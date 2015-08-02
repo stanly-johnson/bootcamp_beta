@@ -25,11 +25,12 @@ $(window).load(function() {
     touch: false,
   });
 });
+
 $('.prev, .next').on('click', function() {
   var href = $(this).attr('href');
   $('#secondSlider').flexslider(href)
   return false;
-})
+});
 // waypoints
 $(document).ready(function() {
 
